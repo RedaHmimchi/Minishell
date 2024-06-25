@@ -1,0 +1,264 @@
+{
+	"tldrawFileFormatVersion": 1,
+	"schema": {
+		"schemaVersion": 1,
+		"storeVersion": 4,
+		"recordVersions": {
+			"asset": {
+				"version": 1,
+				"subTypeKey": "type",
+				"subTypeVersions": {
+					"image": 3,
+					"video": 3,
+					"bookmark": 1
+				}
+			},
+			"camera": {
+				"version": 1
+			},
+			"document": {
+				"version": 2
+			},
+			"instance": {
+				"version": 24
+			},
+			"instance_page_state": {
+				"version": 5
+			},
+			"page": {
+				"version": 1
+			},
+			"shape": {
+				"version": 4,
+				"subTypeKey": "type",
+				"subTypeVersions": {
+					"group": 0,
+					"text": 1,
+					"bookmark": 2,
+					"draw": 1,
+					"geo": 8,
+					"note": 5,
+					"line": 4,
+					"frame": 0,
+					"arrow": 3,
+					"highlight": 0,
+					"embed": 4,
+					"image": 3,
+					"video": 2
+				}
+			},
+			"instance_presence": {
+				"version": 5
+			},
+			"pointer": {
+				"version": 1
+			}
+		}
+	},
+	"records": [
+		{
+			"gridSize": 10,
+			"name": "",
+			"meta": {},
+			"id": "document:document",
+			"typeName": "document"
+		},
+		{
+			"id": "pointer:pointer",
+			"typeName": "pointer",
+			"x": 942,
+			"y": 871,
+			"lastActivityTimestamp": 1712864258261,
+			"meta": {}
+		},
+		{
+			"meta": {},
+			"id": "page:page",
+			"name": "Page 1",
+			"index": "a1",
+			"typeName": "page"
+		},
+		{
+			"x": -198,
+			"y": -521,
+			"z": 1,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [],
+			"hoveredShapeId": null,
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 1086,
+				"h": 600
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"canMoveCamera": true,
+			"isFocused": true,
+			"devicePixelRatio": 1,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"x": 154,
+			"y": 63,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:IA9zhsYAQc2-7n3SVq5d7",
+			"type": "note",
+			"parentId": "page:page",
+			"index": "a1",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"text": "* main.c: The entry point of your shell program.\n        * prompt.c: Functions to display the shell prompt and handle input.\n          * executor.c: Functions to execute commands, including built-in commands and external programs.\n           * parser.c: Functions to parse the command line input into commands and arguments.\n    signals.c: Signal handling functions.\n            * builtins.c: Implementation of built-in commands like cd, pwd, echo, exit, etc.\n         * environment.c: Functions to manage environment variables.\n       * redirection.c: Functions to handle input/output redirections and pipes.\n    * utils.c: Utility functions used across the project.",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"growY": 1585.5625,
+				"url": ""
+			},
+			"typeName": "shape"
+		},
+		{
+			"x": 678,
+			"y": 64,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:5lXBDohoK-bGWINu-ipJx",
+			"type": "note",
+			"parentId": "page:page",
+			"index": "a2",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"text": "typedef struct s_command {\n    char *command;\n    char **args;\n    char *input_redirection;\n    char *output_redirection;\n    int append_mode;\n    struct s_command *next;} t_command;",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"growY": 398.0625,
+				"url": ""
+			},
+			"typeName": "shape"
+		},
+		{
+			"x": 678,
+			"y": 786,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:_yEZHRjq5m0Dn0-0hGCR9",
+			"type": "note",
+			"parentId": "page:page",
+			"index": "a3",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"text": "Struct Components\n\n    char *command;\n        This is a pointer to a character array (string) that holds the name of the command to be executed. For example, if the user types ls in the shell, command would point to a string containing \"ls\".\n\n    char **args;\n        This is a pointer to an array of string pointers. Each string in this array is one of the arguments to the command. This array is NULL-terminated, meaning the last element is a NULL pointer, which is used to indicate the end of the arguments. This is a common pattern in C for handling lists of strings where the length is not known in advance.\n\n    char *input_redirection;\n        If the command includes input redirection (using <), this pointer will hold the string name of the file from which to read the input. For example, in the command sort < input.txt, input_redirection would point to a string containing \"input.txt\".\n\n    char *output_redirection;\n        Similar to input_redirection, but for output redirection (using > or >>). This pointer holds the name of the file to which the command's output should be written. The distinction between overwriting and appending to the file is handled by the append_mode field.\n\n    int append_mode;\n        This is an integer that acts as a boolean flag to indicate whether the output redirection should append to the file (when using >>) rather than overwrite it. If append_mode is nonzero (typically 1), it means the shell should append the output to the file. If it's zero, the shell should overwrite the existing content.\n\n    struct s_command *next;\n        This is a pointer to another t_command structure. It's used to link multiple commands together in cases where they are connected by pipes (|). In a piped command like grep foo file.txt | sort, the grep command would be in one t_command structure, and the sort command would be in another t_command structure linked to the first by the next pointer. This allows you to represent a sequence of commands to be executed in a pipeline.\n\nUsage\n\nThe t_command structure (and the typedef that names it) allows you to encapsulate all the information needed to execute a command, including its arguments, how to handle input and output, and how commands are chained together with pipes. By using this structure, you can build a list (or other structures) of commands to execute as part of a single user input to your shell. This structured approach simplifies parsing the command line, executing commands, and managing resources like file descriptors for redirection and pipes.",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"growY": 6810.5625,
+				"url": ""
+			},
+			"typeName": "shape"
+		},
+		{
+			"x": 777,
+			"y": 648,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:JkFYkwKYruSlCv3fS5XCB",
+			"type": "arrow",
+			"parentId": "page:page",
+			"index": "a4",
+			"props": {
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"type": "binding",
+					"boundShapeId": "shape:5lXBDohoK-bGWINu-ipJx",
+					"normalizedAnchor": {
+						"x": 0.495,
+						"y": 0.9764865712195632
+					},
+					"isPrecise": false,
+					"isExact": false
+				},
+				"end": {
+					"type": "binding",
+					"boundShapeId": "shape:_yEZHRjq5m0Dn0-0hGCR9",
+					"normalizedAnchor": {
+						"x": 0.48,
+						"y": 0.019114015458816608
+					},
+					"isPrecise": true,
+					"isExact": false
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "draw"
+			},
+			"typeName": "shape"
+		}
+	]
+}
